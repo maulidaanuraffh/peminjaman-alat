@@ -38,11 +38,11 @@
         android:text="@string/desc"
         android:textColor="@color/darkgrey"
         android:textSize="@dimen/_14sdp"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
+        app:layout_constraintStart_toStartOf="@+id/pinjam"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <TextView
-        android:id="@+id/imageView"
+        android:id="@+id/pinjam"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
@@ -64,7 +64,7 @@
         android:background="@drawable/syarat_bg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView">
+        app:layout_constraintTop_toBottomOf="@+id/pinjam">
 
         <TextView
             android:id="@+id/textView3"
