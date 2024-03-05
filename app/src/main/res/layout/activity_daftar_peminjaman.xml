@@ -6,4 +6,58 @@
     android:layout_height="match_parent"
     tools:context=".ui.DaftarPeminjamanActivity">
 
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/nacelle"
+        android:text="Peminjaman Saya"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/activity_to_do"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="70dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="40dp">
+
+            <ListView
+                android:id="@+id/list_peminjaman"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:listitem="@layout/item_peminjaman"/>
+        </RelativeLayout>
+    </FrameLayout>
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/bottom_bg"
+        android:paddingBottom="@dimen/_3sdp"
+        app:itemActiveIndicatorStyle="@style/App.Custom.Indicator"
+        app:itemIconSize="@dimen/_18sdp"
+        app:itemIconTint="@color/white"
+        app:itemPaddingBottom="3dp"
+        app:itemPaddingTop="7dp"
+        app:itemTextColor="@color/white"
+        app:labelVisibilityMode="labeled"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent="0.9"
+        app:menu="@menu/bottom_nav" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

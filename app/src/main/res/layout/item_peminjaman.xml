@@ -1,6 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <androidx.cardview.widget.CardView
+        android:layout_width="336dp"
+        android:layout_height="150dp"
+        android:background="@drawable/item_bg"
+        app:cardCornerRadius="8dp"
+        android:layout_marginVertical="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/kode"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginHorizontal="30dp"
+                android:background="@drawable/button_bg2"
+                android:fontFamily="@font/nacelle"
+                android:gravity="center"
+                android:text="Kembalikan"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="@+id/status"
+                app:layout_constraintStart_toStartOf="@+id/status"
+                app:layout_constraintTop_toBottomOf="@+id/status" />
+
+            <TextView
+                android:id="@+id/nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="28dp"
+                android:fontFamily="@font/nacelle"
+                android:text="Nama Peminjam"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/nohp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/nacelle"
+                android:text="+62891234567"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                app:layout_constraintStart_toStartOf="@+id/nama"
+                app:layout_constraintTop_toBottomOf="@+id/nama" />
+
+            <TextView
+                android:id="@+id/tgl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/nacelle"
+                android:text="01/01/2024"
+                android:textColor="@color/black"
+                app:layout_constraintStart_toStartOf="@+id/nohp"
+                app:layout_constraintTop_toBottomOf="@+id/nohp" />
+
+            <TextView
+                android:id="@+id/barang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/nacelle"
+                android:text="Nama Barang"
+                android:textColor="@color/darkgrey"
+                app:layout_constraintStart_toStartOf="@+id/tgl"
+                app:layout_constraintTop_toBottomOf="@+id/tgl" />
+
+            <TextView
+                android:id="@+id/status"
+                android:layout_width="80dp"
+                android:layout_height="28dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="44dp"
+                android:background="@drawable/syarat_bg"
+                android:fontFamily="@font/nacelle"
+                android:gravity="center"
+                android:text="Status"
+                android:textSize="12sp"
+                android:textColor="@color/blue"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

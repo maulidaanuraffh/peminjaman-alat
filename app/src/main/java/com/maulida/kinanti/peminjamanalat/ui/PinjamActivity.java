@@ -132,7 +132,7 @@ public class PinjamActivity extends AppCompatActivity implements View.OnClickLis
                 Log.d("Insert", "Server response: " + response);
 
                 // Setelah data berhasil tersimpan, kosongkan isian data
-                txtglpinjam.setText("");
+                txtglpinjam.setText("DD/MM/YYYY");
                 txnamapinjam.setText("");
                 txnohp.setText("");
                 imvkp.setImageDrawable(null);
@@ -292,7 +292,7 @@ public class PinjamActivity extends AppCompatActivity implements View.OnClickLis
                 try {
                     Bitmap bitmap = MediaStore.Images.Media.getBitmap(this.getContentResolver(), contentURI);
                     String path = saveImage(bitmap);
-                    Toast.makeText(PinjamActivity.this, "Ktp Tersimpan!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(PinjamActivity.this, "Gambar Tersimpan!", Toast.LENGTH_SHORT).show();
                     imvkp.setImageBitmap(bitmap);
 
                 } catch (IOException e) {
