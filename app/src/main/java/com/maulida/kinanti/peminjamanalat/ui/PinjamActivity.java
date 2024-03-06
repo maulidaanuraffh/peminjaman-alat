@@ -340,7 +340,7 @@ public class PinjamActivity extends AppCompatActivity implements View.OnClickLis
     }
 
     private class Send extends StringRequest {
-        private static final String URL = "http://192.168.0.105/pinjambarang/insert.php";
+        private static final String URL = "http://192.168.10.83/pinjambarang/insert.php";
         private final Map<String, String> map = new HashMap<>();
 
         public Send(String id_pinjam, String nama_pinjam, String no_hp, String ktp, String tgl_pinjam, String kode_barang, Response.Listener<String> listener) {

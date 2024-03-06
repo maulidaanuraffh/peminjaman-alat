@@ -42,6 +42,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         cara = findViewById(R.id.cara);
 
         btPinjam.setOnClickListener(this);
+        syarat.setOnClickListener(this);
+        cara.setOnClickListener(this);
 
         setupPermissions();
 
