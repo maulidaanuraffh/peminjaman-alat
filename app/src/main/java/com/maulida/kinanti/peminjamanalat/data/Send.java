@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Send extends StringRequest {
-    private static final String Url = "http://192.168.0.105/pinjambarang/update.php";
+    private static final String Url = "http://172.16.202.209/pinjambarang/update.php";
     private final String code;
     private final Response.Listener<String> listener;
 

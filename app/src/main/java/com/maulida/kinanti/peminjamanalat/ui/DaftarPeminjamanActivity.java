@@ -27,7 +27,7 @@ import java.util.ArrayList;
 
 public class DaftarPeminjamanActivity extends AppCompatActivity {
     private RequestQueue vol = null;
-    private final String url = "http://192.168.0.105/pinjambarang/view.php";
+    private final String url = "http://172.16.202.209/pinjambarang/view.php";
     private ArrayList<Database> arr = new ArrayList<>();
     private DataAdapter adapter;
     private ListView listView;

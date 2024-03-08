@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Peminjaman Alat</string>
     <!--textView-->
-    <string name="selamat_datang">Selamat Datang\ndi PRASAPIN</string>
-    <string name="desc">Dapatkan akses peminjaman alat yang lebih mudah dan cepat dengan menggunakan aplikasi PRASAPIN.</string>
+    <string name="selamat_datang">Selamat Datang\ndi AJUPIN</string>
+    <string name="desc">Dapatkan akses peminjaman alat yang lebih mudah dan cepat dengan menggunakan aplikasi AJUPIN.</string>
     <string name="syarat_pinjam">1. Siswa/i jurusan RPL.\n2. Memiliki kartu pelajar.\n3. Menggunakan barang dengan baik.\n4. Mengembalikan barang tepat waktu.</string>
-    <string name="cara_pinjam">1. Buka aplikasi.\n2. Masuk ke halaman "Peminjaman".\n3. Isi formulir peminjaman secara lengkap.\n4. Buka halaman "Daftar Peminjaman" setelah meminjam.\n5. Ubah status peminjaman.\n5. Tekan tombol "Kembalikan".</string>
+    <string name="cara_pinjam">1. Buka aplikasi.\n2. Masuk ke halaman "Peminjaman".\n3. Isi formulir peminjaman secara lengkap.\n4. Buka halaman "Daftar Peminjaman" setelah meminjam.\n5. Ubah status peminjaman.\n5. Tekan tombol "Kembalikan".</string>
 </resources>
